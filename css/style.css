@@ -1,0 +1,115 @@
+.navbar{
+  background: black  !important;
+}
+.navbar .nav-item{
+  padding-right: 23px;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.navbar .nav-item:last-child{
+  padding-right: 0px;
+}
+.carousel-item{
+  height: 500px;
+}
+.carousel-image-1{
+  background: url('../img/image1.jpeg');
+  background-size: cover;
+}
+.carousel-image-2{
+  background: url('../img/image2.jpeg');
+  background-size: cover;
+}
+.carousel-image-3{
+  background: url('../img/image3.jpeg');
+  background-size: cover;
+}
+#home-icon .fa{
+  font-size: 50px;
+}
+#GetStarted{
+  background: url('../img/pc.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-width: 250px;
+
+}
+.dark-overly{
+  background: #00000091;
+  padding: 70px 0px;
+}
+#Bootstrap-crash .fa{
+  font-size: 50px;
+}
+#Bootstrap-crash{
+  background: url(../img/people.jpeg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 300px;
+}
+.dark-overly2{
+  background: #00000091;
+  padding: 105px 0px;
+}
+
+#Photo-gallary img{
+  width: 400px;
+  height: 260px;
+}
+.bg-black{
+  background: black !important;
+}
+/* About section design  */
+
+#about-header{
+  background:url('../img/image1.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  background-attachment:fixed;
+}
+
+#Services-header{
+  background:url('../img/image2.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  background-attachment:fixed;
+}
+#contact-header{
+  background:url('../img/family-outdoor-happy-happiness-160994.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  background-attachment:fixed;
+}
+
+.dark-overly-abt{
+  background: #00000082;
+  min-height: 250px;
+  padding:70px 0px;
+}
+.dark-overly-contact{
+  background: #00000082;
+  min-height: 400px;
+  padding:70px 0px;
+}
+
+#about-content-section img{
+  width: 350px;
+  height: 350px;
+}
+#icon-boxes .fa{
+  font-size: 50px;
+}
+#testimonial h2{
+  border-bottom: 1px solid red;
+  color: #0a825596;
+}
+
+@media (max-width:450px) {
+  .carousel-caption h2{
+    font-size: 39px;
+  }
